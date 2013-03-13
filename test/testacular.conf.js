@@ -16,7 +16,6 @@ files = [
   'test/lib/angular.js',
   'test/lib/angular-mocks.js',
   'src/**/*.coffee',
-  'src/**/*.js',
   'test/**/test_*.coffee'
 ];
 
@@ -57,13 +56,13 @@ autoWatch = true;
 // - Safari (only Mac)
 // - PhantomJS
 // - IE (only Windows)
-// browsers = ['PhantomJS', 'Chrome'];
-browsers = ['Chrome'];
+// browsers = ['PhantomJS', 'Chrome'];  // for local machine
+browsers = ['PhantomJS'];               // for travis
 
 // If browser does not capture in given timeout [ms], kill it
 captureTimeout = 5000;
 
 // Continuous Integration mode
 // if true, it capture browsers, run tests and exit
-// singleRun = false;
-singleRun = true;
+// singleRun = false;                  // for local machine
+singleRun = true;                      // for travis

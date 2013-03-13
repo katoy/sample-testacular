@@ -13,3 +13,4 @@ docs
 test/testout
 lib-cov
 coverage.html
+test-results.xml
