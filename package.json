@@ -21,11 +21,11 @@
     "url": "https://github.com/katoy/sample-testacular.git"
   },
   "dependencies": {
-    "coffee-script": "~1.6.1"
+    "coffee-script": "~1.12.7"
   },
   "devDependencies": {
-    "chai": "~1.5.0",
-    "mocha": "~1.8.2",
+    "chai": "~4.2.0",
+    "mocha": "~6.1.4",
     "testacular": "~0.6.0"
   },
   "engines": {
